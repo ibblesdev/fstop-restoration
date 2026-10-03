@@ -1,69 +1,23 @@
 //***************************************************************************************
 //Sphere01 (Richard) START
 //*****************************************************************************************
-"sphere01.BASHING01"
+"sphere01.BASHING"
 {
             "channel"          "CHAN_VOICE"
             "volume"            "VOL_NORM"
             "pitch"   "95, 110"
             "soundlevel"       "SNDLVL_110dB"
-            "wave"   "npc/sphere01/PAINCRITICAL01.wav"
-}
-"sphere01.BASHING02"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+	    "wave"   "npc/sphere01/PAINCRITICAL01.wav"
             "wave"   "npc/sphere01/PAINCRITICAL02.wav"
-}
-"sphere01.BASHING03"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
-            "wave"   "npc/sphere01/PAINCRITICAL03.wav"
-}
-"sphere01.BASHING04"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
+            "wave"   "npc/sphere01/PAINCRITICAL03.wav"	
             "wave"   "npc/sphere01/PAINCRITICAL04.wav"
-}
-"sphere01.BASHING05"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/PAINCRITICAL05.wav"
-}
-"sphere01.BASHING06"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/PAINCRITICAL06.wav"
-}
-"sphere01.BASHING07"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/PAINCRITICAL07.wav"
-}
-"sphere01.BASHING08"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/PAINCRITICAL08.wav"
+	}
 }
 "sphere01.BRIDGE01"
 {
@@ -81,29 +35,20 @@
             "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/BURN01.wav"
 }
-"sphere01.DROP01"
+"sphere01.DROP"
 {
             "channel"          "CHAN_VOICE"
             "volume"            "VOL_NORM"
             "pitch"   "95, 110"
             "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/SURPRISE01.wav"
-}
-"sphere01.DROP02"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
-            "wave"   "npc/sphere01/SURPRISE02.wav"
-}
-"sphere01.DROP03"
-{
-            "channel"          "CHAN_VOICE"
-            "volume"            "VOL_NORM"
-            "pitch"   "95, 110"
-            "soundlevel"       "SNDLVL_110dB"
-            "wave"   "npc/sphere01/SURPRISE04.wav"
+
+		"rndwave"
+		{
+			"wave"   "npc/sphere01/SURPRISE01.wav"
+			"wave"   "npc/sphere01/SURPRISE02.wav"
+			"wave"   "npc/sphere01/SURPRISE04.wav"
+		}
 }
 "sphere01.FRUSTRATION01"
 {
@@ -937,7 +882,88 @@
             "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/PAIN08.wav"
 }
-"sphere01.PICKUPFIRST01"
+
+"sphere01.DOWN"
+{
+            "channel"          "CHAN_VOICE"
+            "volume"            "VOL_NORM"
+            "pitch"   "95, 110"
+            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"   "npc/sphere01/DIRECTIONSDOWN01.wav"
+		"wave"   "npc/sphere01/DIRECTIONSDOWN02.wav"
+		"wave"   "npc/sphere01/DIRECTIONSDOWN03.wav"
+		"wave"   "npc/sphere01/DIRECTIONSDOWN04.wav"
+
+	}
+}
+"sphere01.UP"
+{
+            "channel"          "CHAN_VOICE"
+            "volume"            "VOL_NORM"
+            "pitch"   "95, 110"
+            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"   "npc/sphere01/DIRECTIONSUP01.wav"
+		"wave"   "npc/sphere01/DIRECTIONSUP02.wav"
+		"wave"   "npc/sphere01/DIRECTIONSUP03.wav"
+		"wave"   "npc/sphere01/DIRECTIONSUP04.wav"
+
+	}
+}
+"sphere01.FORWARD"
+{
+            "channel"          "CHAN_VOICE"
+            "volume"            "VOL_NORM"
+            "pitch"   "95, 110"
+            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD01.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD02.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD03.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD04.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD05.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD06.wav"
+		"wave"   "npc/sphere01/DIRECTIONSFORWARD07.wav"
+
+	}
+}
+"sphere01.LEFT"
+{
+            "channel"          "CHAN_VOICE"
+            "volume"            "VOL_NORM"
+            "pitch"   "95, 110"
+            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"   "npc/sphere01/DIRECTIONSLEFT01.wav"
+		"wave"   "npc/sphere01/DIRECTIONSLEFT02.wav"
+		"wave"   "npc/sphere01/DIRECTIONSLEFT03.wav"
+		"wave"   "npc/sphere01/DIRECTIONSLEFT04.wav"
+		"wave"   "npc/sphere01/DIRECTIONSLEFT05.wav"
+
+	}
+}
+"sphere01.RIGHT"
+{
+            "channel"          "CHAN_VOICE"
+            "volume"            "VOL_NORM"
+            "pitch"   "95, 110"
+            "soundlevel"       "SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"   "npc/sphere01/DIRECTIONSRIGHT01.wav"
+		"wave"   "npc/sphere01/DIRECTIONSRIGHT02.wav"
+		"wave"   "npc/sphere01/DIRECTIONSRIGHT03.wav"
+		"wave"   "npc/sphere01/DIRECTIONSRIGHT04.wav"
+		"wave"   "npc/sphere01/DIRECTIONSRIGHT05.wav"
+
+	}
+}
+"sphere01.PICKUPFIRST"
 {
             "channel"          "CHAN_VOICE"
             "volume"            "VOL_NORM"
@@ -1097,7 +1123,7 @@
             "soundlevel"       "SNDLVL_110dB"
             "wave"   "npc/sphere01/UNHELDPHEW02.wav"
 }
-"sphere01.WHOOP01"
+"sphere01.WHOOP"
 {
             "channel"          "CHAN_VOICE"
             "volume"            "VOL_NORM"
@@ -1110,7 +1136,7 @@
 //***************************************************************************************
 //Sphere02 (Aquarium) START
 //*****************************************************************************************
-"sphere02.NOTHELD"
+"sphere02.IDLE"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1418,87 +1444,27 @@
 //**************************************
 //***AUTO-GENERATED! DON'T HAND EDIT!***
 //**************************************
-"sphere001.ABANDONEDMAD01"
+"sphere01.ABANDONED"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/ABANDONEDMAD01.wav"
-}
-"sphere001.ABANDONEDMAD02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD02.wav"
-}
-"sphere001.ABANDONEDMAD03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD03.wav"
-}
-"sphere001.ABANDONEDMAD04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD04.wav"
-}
-"sphere001.ABANDONEDMAD05"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD05.wav"
-}
-"sphere001.ABANDONEDMAD06"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD06.wav"
-}
-"sphere001.ABANDONEDMAD07"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD07.wav"
-}
-"sphere001.ABANDONEDMAD08"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD08.wav"
-}
-"sphere001.ABANDONEDMAD10"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
-	"wave"	"npc/sphere01/ABANDONEDMAD10.wav"
-}
-"sphere001.ABANDONEDMAD09"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/ABANDONEDMAD09.wav"
+	"wave"	"npc/sphere01/ABANDONEDMAD10.wav"
+	}
 }
-"sphere001.BASHING05"
+"sphere01.BASHING05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1506,7 +1472,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING05.wav"
 }
-"sphere001.BASHING04"
+"sphere01.BASHING04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1514,7 +1480,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING04.wav"
 }
-"sphere001.BASHING03"
+"sphere01.BASHING03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1522,7 +1488,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING03.wav"
 }
-"sphere001.BASHING02"
+"sphere01.BASHING02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1530,7 +1496,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING02.wav"
 }
-"sphere001.BASHING01"
+"sphere01.BASHING01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1538,7 +1504,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING01.wav"
 }
-"sphere001.BASHING06"
+"sphere01.BASHING06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1546,7 +1512,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING06.wav"
 }
-"sphere001.BASHING07"
+"sphere01.BASHING07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1554,7 +1520,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BASHING07.wav"
 }
-"sphere001.BRIDGE01"
+"sphere01.BRIDGE01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1562,7 +1528,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BRIDGE01.wav"
 }
-"sphere001.BURN01"
+"sphere01.BURN01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1570,71 +1536,35 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/BURN01.wav"
 }
-"sphere001.DIRECTIONSBACKINGUP01"
+"sphere01.BACKINGUP"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/DIRECTIONSBACKINGUP01.wav"
-}
-"sphere001.DIRECTIONSBACKINGUP02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSBACKINGUP02.wav"
-}
-"sphere001.DIRECTIONSBACKINGUP03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSBACKINGUP03.wav"
-}
-"sphere001.DIRECTIONSBACKINGUP04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSBACKINGUP04.wav"
+	}
 }
-"sphere001.DIRECTIONSDOWN01"
+"sphere01.DOWN"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/DIRECTIONSDOWN01.wav"
-}
-"sphere001.DIRECTIONSDOWN02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSDOWN02.wav"
-}
-"sphere001.DIRECTIONSDOWN04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSDOWN04.wav"
-}
-"sphere001.DIRECTIONSDOWN03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSDOWN03.wav"
+	}
 }
-"sphere001.DIRECTIONSFORWARD01"
+"sphere01.DIRECTIONSFORWARD01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1642,7 +1572,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD01.wav"
 }
-"sphere001.DIRECTIONSFORWARD02"
+"sphere01.DIRECTIONSFORWARD02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1650,7 +1580,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD02.wav"
 }
-"sphere001.DIRECTIONSFORWARD03"
+"sphere01.DIRECTIONSFORWARD03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1658,7 +1588,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD03.wav"
 }
-"sphere001.DIRECTIONSFORWARD04"
+"sphere01.DIRECTIONSFORWARD04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1666,7 +1596,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD04.wav"
 }
-"sphere001.DIRECTIONSFORWARD05"
+"sphere01.DIRECTIONSFORWARD05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1674,7 +1604,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD05.wav"
 }
-"sphere001.DIRECTIONSFORWARD06"
+"sphere01.DIRECTIONSFORWARD06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1682,7 +1612,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD06.wav"
 }
-"sphere001.DIRECTIONSFORWARD07"
+"sphere01.DIRECTIONSFORWARD07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1690,7 +1620,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSFORWARD07.wav"
 }
-"sphere001.DIRECTIONSLEFT01"
+"sphere01.DIRECTIONSLEFT01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1698,7 +1628,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSLEFT01.wav"
 }
-"sphere001.DIRECTIONSLEFT02"
+"sphere01.DIRECTIONSLEFT02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1706,7 +1636,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSLEFT02.wav"
 }
-"sphere001.DIRECTIONSLEFT03"
+"sphere01.DIRECTIONSLEFT03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1714,7 +1644,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSLEFT03.wav"
 }
-"sphere001.DIRECTIONSLEFT04"
+"sphere01.DIRECTIONSLEFT04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1722,7 +1652,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSLEFT04.wav"
 }
-"sphere001.DIRECTIONSLEFT05"
+"sphere01.DIRECTIONSLEFT05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1730,7 +1660,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSLEFT05.wav"
 }
-"sphere001.DIRECTIONSRIGHT01"
+"sphere01.DIRECTIONSRIGHT01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1738,7 +1668,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSRIGHT01.wav"
 }
-"sphere001.DIRECTIONSRIGHT02"
+"sphere01.DIRECTIONSRIGHT02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1746,7 +1676,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSRIGHT02.wav"
 }
-"sphere001.DIRECTIONSRIGHT03"
+"sphere01.DIRECTIONSRIGHT03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1754,7 +1684,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSRIGHT03.wav"
 }
-"sphere001.DIRECTIONSRIGHT04"
+"sphere01.DIRECTIONSRIGHT04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1762,7 +1692,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSRIGHT04.wav"
 }
-"sphere001.DIRECTIONSUP01"
+"sphere01.DIRECTIONSUP01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1770,7 +1700,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSUP01.wav"
 }
-"sphere001.DIRECTIONSUP02"
+"sphere01.DIRECTIONSUP02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1778,7 +1708,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSUP02.wav"
 }
-"sphere001.DIRECTIONSUP03"
+"sphere01.DIRECTIONSUP03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1786,7 +1716,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSUP03.wav"
 }
-"sphere001.DIRECTIONSUP04"
+"sphere01.DIRECTIONSUP04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1794,7 +1724,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/DIRECTIONSUP04.wav"
 }
-"sphere001.FRUSTRATION01"
+"sphere01.FRUSTRATION01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1802,7 +1732,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION01.wav"
 }
-"sphere001.FRUSTRATION02"
+"sphere01.FRUSTRATION02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1810,7 +1740,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION02.wav"
 }
-"sphere001.FRUSTRATION04"
+"sphere01.FRUSTRATION04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1818,7 +1748,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION04.wav"
 }
-"sphere001.FRUSTRATION03"
+"sphere01.FRUSTRATION03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1826,7 +1756,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION03.wav"
 }
-"sphere001.FRUSTRATION05"
+"sphere01.FRUSTRATION05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1834,7 +1764,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION05.wav"
 }
-"sphere001.FRUSTRATION06"
+"sphere01.FRUSTRATION06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1842,7 +1772,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION06.wav"
 }
-"sphere001.FRUSTRATION07"
+"sphere01.FRUSTRATION07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1850,7 +1780,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION07.wav"
 }
-"sphere001.FRUSTRATION08"
+"sphere01.FRUSTRATION08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1858,7 +1788,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION08.wav"
 }
-"sphere001.FRUSTRATION09"
+"sphere01.FRUSTRATION09"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1866,7 +1796,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION09.wav"
 }
-"sphere001.FRUSTRATION10"
+"sphere01.FRUSTRATION10"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1874,7 +1804,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION10.wav"
 }
-"sphere001.FRUSTRATION11"
+"sphere01.FRUSTRATION11"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1882,7 +1812,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION11.wav"
 }
-"sphere001.FRUSTRATION12"
+"sphere01.FRUSTRATION12"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1890,7 +1820,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION12.wav"
 }
-"sphere001.FRUSTRATION13"
+"sphere01.FRUSTRATION13"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1898,7 +1828,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/FRUSTRATION13.wav"
 }
-"sphere001.HELDMENTAL01"
+"sphere01.HELDMENTAL01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1906,7 +1836,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL01.wav"
 }
-"sphere001.HELDMENTAL02"
+"sphere01.HELDMENTAL02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1914,7 +1844,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL02.wav"
 }
-"sphere001.HELDMENTAL03"
+"sphere01.HELDMENTAL03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1922,7 +1852,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL03.wav"
 }
-"sphere001.HELDMENTAL04"
+"sphere01.HELDMENTAL04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1930,7 +1860,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL04.wav"
 }
-"sphere001.HELDMENTAL05"
+"sphere01.HELDMENTAL05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1938,7 +1868,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL05.wav"
 }
-"sphere001.HELDMENTAL06"
+"sphere01.HELDMENTAL06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1946,7 +1876,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL06.wav"
 }
-"sphere001.HELDMENTAL07"
+"sphere01.HELDMENTAL07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1954,7 +1884,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL07.wav"
 }
-"sphere001.HELDMENTAL08"
+"sphere01.HELDMENTAL08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1962,7 +1892,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL08.wav"
 }
-"sphere001.HELDMENTAL09"
+"sphere01.HELDMENTAL09"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1970,7 +1900,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL09.wav"
 }
-"sphere001.HELDMENTAL10"
+"sphere01.HELDMENTAL10"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1978,7 +1908,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL10.wav"
 }
-"sphere001.HELDMENTAL11"
+"sphere01.HELDMENTAL11"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1986,7 +1916,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL11.wav"
 }
-"sphere001.HELDMENTAL12"
+"sphere01.HELDMENTAL12"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -1994,7 +1924,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL12.wav"
 }
-"sphere001.HELDMENTAL13"
+"sphere01.HELDMENTAL13"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2002,7 +1932,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL13.wav"
 }
-"sphere001.HELDMENTAL14"
+"sphere01.HELDMENTAL14"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2010,7 +1940,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL14.wav"
 }
-"sphere001.HELDMENTAL33"
+"sphere01.HELDMENTAL33"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2018,7 +1948,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL33.wav"
 }
-"sphere001.HELDMENTAL34"
+"sphere01.HELDMENTAL34"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2026,7 +1956,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL34.wav"
 }
-"sphere001.HELDMENTAL15"
+"sphere01.HELDMENTAL15"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2034,7 +1964,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL15.wav"
 }
-"sphere001.HELDMENTAL16"
+"sphere01.HELDMENTAL16"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2042,7 +1972,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL16.wav"
 }
-"sphere001.HELDMENTAL17"
+"sphere01.HELDMENTAL17"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2050,7 +1980,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL17.wav"
 }
-"sphere001.HELDMENTAL18"
+"sphere01.HELDMENTAL18"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2058,7 +1988,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL18.wav"
 }
-"sphere001.HELDMENTAL19"
+"sphere01.HELDMENTAL19"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2066,7 +1996,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL19.wav"
 }
-"sphere001.HELDMENTAL20"
+"sphere01.HELDMENTAL20"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2074,7 +2004,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL20.wav"
 }
-"sphere001.HELDMENTAL21"
+"sphere01.HELDMENTAL21"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2082,7 +2012,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL21.wav"
 }
-"sphere001.HELDMENTAL22"
+"sphere01.HELDMENTAL22"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2090,7 +2020,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL22.wav"
 }
-"sphere001.HELDMENTAL23"
+"sphere01.HELDMENTAL23"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2098,7 +2028,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL23.wav"
 }
-"sphere001.HELDMENTAL35"
+"sphere01.HELDMENTAL35"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2106,7 +2036,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL35.wav"
 }
-"sphere001.HELDMENTAL24"
+"sphere01.HELDMENTAL24"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2114,7 +2044,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL24.wav"
 }
-"sphere001.HELDMENTAL25"
+"sphere01.HELDMENTAL25"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2122,7 +2052,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL25.wav"
 }
-"sphere001.HELDMENTAL26"
+"sphere01.HELDMENTAL26"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2130,7 +2060,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL26.wav"
 }
-"sphere001.HELDMENTAL27"
+"sphere01.HELDMENTAL27"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2138,7 +2068,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL27.wav"
 }
-"sphere001.HELDMENTAL28"
+"sphere01.HELDMENTAL28"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2146,7 +2076,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL28.wav"
 }
-"sphere001.HELDMENTAL29"
+"sphere01.HELDMENTAL29"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2154,7 +2084,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL29.wav"
 }
-"sphere001.HELDMENTAL30"
+"sphere01.HELDMENTAL30"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2162,7 +2092,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL30.wav"
 }
-"sphere001.HELDMENTAL31"
+"sphere01.HELDMENTAL31"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2170,7 +2100,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL31.wav"
 }
-"sphere001.HELDMENTAL32"
+"sphere01.HELDMENTAL32"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2178,7 +2108,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDMENTAL32.wav"
 }
-"sphere001.HELDPANIC01"
+"sphere01.HELDPANIC01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2186,7 +2116,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC01.wav"
 }
-"sphere001.HELDPANIC15"
+"sphere01.HELDPANIC15"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2194,7 +2124,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC15.wav"
 }
-"sphere001.HELDPANIC02"
+"sphere01.HELDPANIC02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2202,7 +2132,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC02.wav"
 }
-"sphere001.HELDPANIC03"
+"sphere01.HELDPANIC03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2210,7 +2140,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC03.wav"
 }
-"sphere001.HELDPANIC04"
+"sphere01.HELDPANIC04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2218,7 +2148,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC04.wav"
 }
-"sphere001.HELDPANIC05"
+"sphere01.HELDPANIC05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2226,7 +2156,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC05.wav"
 }
-"sphere001.HELDPANIC06"
+"sphere01.HELDPANIC06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2234,7 +2164,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC06.wav"
 }
-"sphere001.HELDPANIC07"
+"sphere01.HELDPANIC07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2242,7 +2172,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC07.wav"
 }
-"sphere001.HELDPANIC08"
+"sphere01.HELDPANIC08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2250,7 +2180,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC08.wav"
 }
-"sphere001.HELDPANIC30"
+"sphere01.HELDPANIC30"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2258,7 +2188,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC30.wav"
 }
-"sphere001.HELDPANIC09"
+"sphere01.HELDPANIC09"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2266,7 +2196,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC09.wav"
 }
-"sphere001.HELDPANIC10"
+"sphere01.HELDPANIC10"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2274,7 +2204,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC10.wav"
 }
-"sphere001.HELDPANIC11"
+"sphere01.HELDPANIC11"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2282,7 +2212,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC11.wav"
 }
-"sphere001.HELDPANIC12"
+"sphere01.HELDPANIC12"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2290,7 +2220,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC12.wav"
 }
-"sphere001.HELDPANIC29"
+"sphere01.HELDPANIC29"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2298,7 +2228,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC29.wav"
 }
-"sphere001.HELDPANIC13"
+"sphere01.HELDPANIC13"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2306,7 +2236,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC13.wav"
 }
-"sphere001.HELDPANIC14"
+"sphere01.HELDPANIC14"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2314,7 +2244,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC14.wav"
 }
-"sphere001.HELDPANIC16"
+"sphere01.HELDPANIC16"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2322,7 +2252,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC16.wav"
 }
-"sphere001.HELDPANIC17"
+"sphere01.HELDPANIC17"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2330,7 +2260,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC17.wav"
 }
-"sphere001.HELDPANIC18"
+"sphere01.HELDPANIC18"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2338,7 +2268,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC18.wav"
 }
-"sphere001.HELDPANIC19"
+"sphere01.HELDPANIC19"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2346,7 +2276,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC19.wav"
 }
-"sphere001.HELDPANIC20"
+"sphere01.HELDPANIC20"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2354,7 +2284,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC20.wav"
 }
-"sphere001.HELDPANIC21"
+"sphere01.HELDPANIC21"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2362,7 +2292,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC21.wav"
 }
-"sphere001.HELDPANIC22"
+"sphere01.HELDPANIC22"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2370,7 +2300,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC22.wav"
 }
-"sphere001.HELDPANIC23"
+"sphere01.HELDPANIC23"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2378,7 +2308,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC23.wav"
 }
-"sphere001.HELDPANIC24"
+"sphere01.HELDPANIC24"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2386,7 +2316,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC24.wav"
 }
-"sphere001.HELDPANIC25"
+"sphere01.HELDPANIC25"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2394,7 +2324,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC25.wav"
 }
-"sphere001.HELDPANIC26"
+"sphere01.HELDPANIC26"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2402,7 +2332,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC26.wav"
 }
-"sphere001.HELDPANIC27"
+"sphere01.HELDPANIC27"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2410,7 +2340,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC27.wav"
 }
-"sphere001.HELDPANIC28"
+"sphere01.HELDPANIC28"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2418,87 +2348,37 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/HELDPANIC28.wav"
 }
-"sphere001.JUMPING02"
+"sphere01.JUMPING"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/JUMPING02.wav"
-}
-"sphere001.JUMPING03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING03.wav"
-}
-"sphere001.JUMPING05"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING05.wav"
-}
-"sphere001.JUMPING04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING04.wav"
-}
-"sphere001.JUMPING07"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING07.wav"
-}
-"sphere001.JUMPING01"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING01.wav"
-}
-"sphere001.JUMPING06"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/JUMPING06.wav"
+	}
 }
-"sphere001.LAUGH01"
+"sphere01.LAUGH"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/LAUGH01.wav"
-}
-"sphere001.LAUGH02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/LAUGH02.wav"
-}
-"sphere001.LAUGH03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/LAUGH03.wav"
+	}
 }
-"sphere001.MISC01"
+"sphere01.MISC01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2506,7 +2386,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC01.wav"
 }
-"sphere001.MISC02"
+"sphere01.MISC02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2514,7 +2394,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC02.wav"
 }
-"sphere001.MISC08"
+"sphere01.MISC08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2522,7 +2402,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC08.wav"
 }
-"sphere001.MISC03"
+"sphere01.MISC03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2530,7 +2410,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC03.wav"
 }
-"sphere001.MISC09"
+"sphere01.MISC09"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2538,7 +2418,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC09.wav"
 }
-"sphere001.MISC04"
+"sphere01.MISC04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2546,7 +2426,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC04.wav"
 }
-"sphere001.MISC05"
+"sphere01.MISC05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2554,7 +2434,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC05.wav"
 }
-"sphere001.MISC06"
+"sphere01.MISC06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2562,7 +2442,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC06.wav"
 }
-"sphere001.MISC07"
+"sphere01.MISC07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2570,7 +2450,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC07.wav"
 }
-"sphere001.MISC10"
+"sphere01.MISC10"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2578,7 +2458,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC10.wav"
 }
-"sphere001.MISC11"
+"sphere01.MISC11"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2586,7 +2466,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC11.wav"
 }
-"sphere001.MISC12"
+"sphere01.MISC12"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2594,7 +2474,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MISC12.wav"
 }
-"sphere001.MUTTERING01"
+"sphere01.MUTTERING01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2602,7 +2482,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING01.wav"
 }
-"sphere001.MUTTERING02"
+"sphere01.MUTTERING02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2610,7 +2490,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING02.wav"
 }
-"sphere001.MUTTERING03"
+"sphere01.MUTTERING03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2618,7 +2498,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING03.wav"
 }
-"sphere001.MUTTERING05"
+"sphere01.MUTTERING05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2626,7 +2506,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING05.wav"
 }
-"sphere001.MUTTERING06"
+"sphere01.MUTTERING06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2634,7 +2514,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING06.wav"
 }
-"sphere001.MUTTERING07"
+"sphere01.MUTTERING07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2642,7 +2522,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING07.wav"
 }
-"sphere001.MUTTERING08"
+"sphere01.MUTTERING08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2650,7 +2530,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING08.wav"
 }
-"sphere001.MUTTERING04"
+"sphere01.MUTTERING04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2658,71 +2538,26 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/MUTTERING04.wav"
 }
-"sphere001.PAIN01"
+"sphere01.PAIN"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/PAIN01.wav"
-}
-"sphere001.PAIN02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
-	"wave"	"npc/sphere01/PAIN02.wav"
-}
-"sphere001.PAIN06"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAIN06.wav"
-}
-"sphere001.PAIN03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
+	"wave"	"npc/sphere01/PAIN02.wav"
 	"wave"	"npc/sphere01/PAIN03.wav"
-}
-"sphere001.PAIN04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAIN04.wav"
-}
-"sphere001.PAIN05"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAIN05.wav"
-}
-"sphere001.PAIN07"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAIN07.wav"
-}
-"sphere001.PAIN08"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAIN08.wav"
+	}
+	
 }
-"sphere001.PAINCRITICAL01"
+"sphere01.PAINCRITICAL01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2730,7 +2565,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL01.wav"
 }
-"sphere001.PAINCRITICAL02"
+"sphere01.PAINCRITICAL02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2738,7 +2573,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL02.wav"
 }
-"sphere001.PAINCRITICAL03"
+"sphere01.PAINCRITICAL03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2746,7 +2581,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL03.wav"
 }
-"sphere001.PAINCRITICAL04"
+"sphere01.PAINCRITICAL04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2754,7 +2589,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL04.wav"
 }
-"sphere001.PAINCRITICAL05"
+"sphere01.PAINCRITICAL05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2762,7 +2597,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL05.wav"
 }
-"sphere001.PAINCRITICAL06"
+"sphere01.PAINCRITICAL06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2770,7 +2605,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL06.wav"
 }
-"sphere001.PAINCRITICAL07"
+"sphere01.PAINCRITICAL07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2778,7 +2613,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL07.wav"
 }
-"sphere001.PAINCRITICAL08"
+"sphere01.PAINCRITICAL08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2786,7 +2621,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PAINCRITICAL08.wav"
 }
-"sphere001.PANIC01"
+"sphere01.PANIC01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2794,7 +2629,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC01.wav"
 }
-"sphere001.PANIC02"
+"sphere01.PANIC02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2802,7 +2637,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC02.wav"
 }
-"sphere001.PANIC03"
+"sphere01.PANIC03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2810,7 +2645,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC03.wav"
 }
-"sphere001.PANIC15"
+"sphere01.PANIC15"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2818,7 +2653,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC15.wav"
 }
-"sphere001.PANIC06"
+"sphere01.PANIC06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2826,7 +2661,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC06.wav"
 }
-"sphere001.PANIC10"
+"sphere01.PANIC10"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2834,7 +2669,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC10.wav"
 }
-"sphere001.PANIC08"
+"sphere01.PANIC08"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2842,7 +2677,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC08.wav"
 }
-"sphere001.PANIC09"
+"sphere01.PANIC09"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2850,7 +2685,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC09.wav"
 }
-"sphere001.PANIC11"
+"sphere01.PANIC11"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2858,7 +2693,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC11.wav"
 }
-"sphere001.PANIC12"
+"sphere01.PANIC12"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2866,7 +2701,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC12.wav"
 }
-"sphere001.PANIC05"
+"sphere01.PANIC05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2874,7 +2709,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC05.wav"
 }
-"sphere001.PANIC04"
+"sphere01.PANIC04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2882,7 +2717,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC04.wav"
 }
-"sphere001.PANIC07"
+"sphere01.PANIC07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2890,7 +2725,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC07.wav"
 }
-"sphere001.PANIC13"
+"sphere01.PANIC13"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2898,7 +2733,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC13.wav"
 }
-"sphere001.PANIC14"
+"sphere01.PANIC14"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2906,7 +2741,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/PANIC14.wav"
 }
-"sphere001.SHOCK01"
+"sphere01.SHOCK01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2914,39 +2749,21 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SHOCK01.wav"
 }
-"sphere001.SURPRISE01"
+"sphere01.SURPRISE"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
 	"pitch"	"95,100"
 	"soundlevel"	"SNDLVL_110dB"
+	"rndwave"
+	{
 	"wave"	"npc/sphere01/SURPRISE01.wav"
-}
-"sphere001.SURPRISE03"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SURPRISE03.wav"
-}
-"sphere001.SURPRISE02"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SURPRISE02.wav"
-}
-"sphere001.SURPRISE04"
-{
-	"channel"	"CHAN_VOICE"
-	"volume"	"VOL_NORM"
-	"pitch"	"95,100"
-	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SURPRISE04.wav"
+	}
 }
-"sphere001.SUSPICIOUS01"
+"sphere01.SUSPICIOUS01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2954,7 +2771,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS01.wav"
 }
-"sphere001.SUSPICIOUS02"
+"sphere01.SUSPICIOUS02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2962,7 +2779,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS02.wav"
 }
-"sphere001.SUSPICIOUS03"
+"sphere01.SUSPICIOUS03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2970,7 +2787,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS03.wav"
 }
-"sphere001.SUSPICIOUS04"
+"sphere01.SUSPICIOUS04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2978,7 +2795,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS04.wav"
 }
-"sphere001.SUSPICIOUS05"
+"sphere01.SUSPICIOUS05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2986,7 +2803,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS05.wav"
 }
-"sphere001.SUSPICIOUS06"
+"sphere01.SUSPICIOUS06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -2994,7 +2811,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS06.wav"
 }
-"sphere001.SUSPICIOUS07"
+"sphere01.SUSPICIOUS07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3002,7 +2819,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/SUSPICIOUS07.wav"
 }
-"sphere001.TURRETHIT01"
+"sphere01.TURRETHIT01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3010,7 +2827,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/TURRETHIT01.wav"
 }
-"sphere001.TURRETHIT02"
+"sphere01.TURRETHIT02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3018,7 +2835,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/TURRETHIT02.wav"
 }
-"sphere001.TURRETHIT03"
+"sphere01.TURRETHIT03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3026,7 +2843,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/TURRETHIT03.wav"
 }
-"sphere001.TURRETHIT04"
+"sphere01.TURRETHIT04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3034,7 +2851,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/TURRETHIT04.wav"
 }
-"sphere001.UNHELDPHEW01"
+"sphere01.UNHELDPHEW01"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3042,7 +2859,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW01.wav"
 }
-"sphere001.UNHELDPHEW03"
+"sphere01.UNHELDPHEW03"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3050,7 +2867,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW03.wav"
 }
-"sphere001.UNHELDPHEW04"
+"sphere01.UNHELDPHEW04"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3058,7 +2875,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW04.wav"
 }
-"sphere001.UNHELDPHEW05"
+"sphere01.UNHELDPHEW05"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3066,7 +2883,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW05.wav"
 }
-"sphere001.UNHELDPHEW06"
+"sphere01.UNHELDPHEW06"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3074,7 +2891,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW06.wav"
 }
-"sphere001.UNHELDPHEW07"
+"sphere01.UNHELDPHEW07"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
@@ -3082,7 +2899,7 @@
 	"soundlevel"	"SNDLVL_110dB"
 	"wave"	"npc/sphere01/UNHELDPHEW07.wav"
 }
-"sphere001.UNHELDPHEW02"
+"sphere01.UNHELDPHEW02"
 {
 	"channel"	"CHAN_VOICE"
 	"volume"	"VOL_NORM"
