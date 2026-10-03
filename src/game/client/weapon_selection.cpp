@@ -53,9 +53,9 @@ HOOK_COMMAND( slot9, Slot9 );
 HOOK_COMMAND( slot0, Slot0 );
 HOOK_COMMAND( slot10, Slot10 );
 HOOK_COMMAND( cancelselect, Close );
-//HOOK_COMMAND( invnext, NextWeapon );
-//HOOK_COMMAND( invprev, PrevWeapon );
-//HOOK_COMMAND( lastinv, LastWeapon );
+HOOK_COMMAND( invnext, NextWeapon );
+HOOK_COMMAND( invprev, PrevWeapon );
+HOOK_COMMAND( lastinv, LastWeapon );
 
 // instance info
 CBaseHudWeaponSelection *CBaseHudWeaponSelection::s_pInstance[MAX_SPLITSCREEN_PLAYERS];
