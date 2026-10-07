@@ -125,7 +125,7 @@ void CHudPhotoFlash::Reset( void )
 //-----------------------------------------------------------------------------
 void CHudPhotoFlash::ApplySchemeSettings( vgui::IScheme *scheme )
 {
-	LoadControlSettings( "Resource/PhotoInventory.res" );
+	//LoadControlSettings( "Resource/PhotoInventory.res" );
 	BaseClass::ApplySchemeSettings( scheme );
 
 	SetPaintBackgroundEnabled( false );

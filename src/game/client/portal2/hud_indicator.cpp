@@ -104,7 +104,7 @@ void CHudIndicator::Reset( void )
 //-----------------------------------------------------------------------------
 void CHudIndicator::ApplySchemeSettings( vgui::IScheme *scheme )
 {
-	LoadControlSettings( "Resource/Indicator.res" );
+	//LoadControlSettings( "Resource/Indicator.res" );
 	BaseClass::ApplySchemeSettings( scheme );
 
 	SetPaintBackgroundEnabled( false );
@@ -299,7 +299,7 @@ void CHudControlHelper::Reset( void )
 //-----------------------------------------------------------------------------
 void CHudControlHelper::ApplySchemeSettings( vgui::IScheme *scheme )
 {
-	LoadControlSettings( "Resource/ControlHelper.res" );
+	//LoadControlSettings( "Resource/ControlHelper.res" );
 	BaseClass::ApplySchemeSettings( scheme );
 
 	SetPaintBackgroundEnabled( false );
